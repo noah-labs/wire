@@ -1,4 +1,4 @@
-module github.com/google/wire
+module github.com/noah-labs/wire
 
 go 1.25.0
 
