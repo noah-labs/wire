@@ -43,7 +43,7 @@ fi
 
 echo
 echo "Ensuring .go files are formatted with gofmt -s..."
-DIFF="$(find . -name '*.go' -type f -not -path '*/testdata/*' -print0 | xargs -0 gofmt -s -d)"
+DIFF="$(find . -name '*.go' -type f -not -path '*/testdata/*' -not -path '*/vendor/*' -print0 | xargs -0 gofmt -s -d)"
 if [ -n "$DIFF" ]; then
   echo "FAIL: please run gofmt -s and commit the result"
   echo "$DIFF";
