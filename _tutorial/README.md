@@ -151,7 +151,7 @@ we will exclude it from our final binary with a build constraint at the top of
 the file:
 
 ``` go
-//+build wireinject
+//go:build wireinject
 
 ```
 

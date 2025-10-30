@@ -3,7 +3,6 @@
 // license that can be found in the LICENSE file.
 
 //go:build !cmp_debug
-// +build !cmp_debug
 
 package diff
 
