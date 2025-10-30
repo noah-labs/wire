@@ -4,7 +4,6 @@
 
 //go:generate go run -mod=mod github.com/noah-labs/wire/cmd/wire
 //go:build !wireinject
-// +build !wireinject
 
 package main
 

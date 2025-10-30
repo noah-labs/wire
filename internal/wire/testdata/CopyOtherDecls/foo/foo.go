@@ -13,7 +13,6 @@
 // limitations under the License.
 
 //go:build wireinject
-// +build wireinject
 
 // All of the declarations are in one file.
 // Wire should copy non-injectors over, preserving imports.

@@ -13,7 +13,6 @@
 // limitations under the License.
 
 //go:build wireinject
-// +build wireinject
 
 // This file is specifically designed to cause issues with copying the
 // AST, particularly with the identifier "context".
